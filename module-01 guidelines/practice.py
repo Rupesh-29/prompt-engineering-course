@@ -1,9 +1,9 @@
 from helper import get_completion
 
 prompt = """
-Summarize the following sentence in 10 words:
+Summarize the following sentence into 5 Bullet points:
+The U.S.A has many different types of climates, including tropical, dry, temperate, continental, and polar. The climate in the U.S.A can vary greatly depending on the region, with some areas experiencing hot summers and cold winters, while others have mild temperatures year-round. The country also experiences a wide range of weather phenomena, such as hurricanes, tornadoes, and blizzards. Overall, the diverse climates in the U.S.A contribute to its rich natural beauty and variety of ecosystems.
 
-In IPL 2020, Chennai Super kings didn't qualify for the playoffs for the first time in the history of IPL. They Finished at the bottom of the points table but in the very next year,they secured the title by defeating Kolkata Knight Riders in the final. In IPL 2022, they again qualified for the playoffs but lost to Gujarat Titans in the final. In IPL 2023, they again qualified for the playoffs but lost to Gujarat Titans in the final.
 """
 
 response = get_completion(prompt)
